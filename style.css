@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+*{
+  box-sizing: border-box;
+  position: relative;
+}
+:root{
+  font-size: 16px;
+  margin: 0;
+  padding:0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-top: 40px;
+    padding: 0 10px 0 15px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550 ;
+    background-color:#30294eea;
+    color: #fff;
+    font-size: 1rem;
+    text-align: justify;
+    text-shadow: 1px 1px 1px black
+}
+
+@media(max-width: 460px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+  
+a{
+    text-decoration: none;
+    color: rgb(147, 250, 62);
+}
+a:visited {
+    color: #fbfcf9;
+}
+a:hover{
+    color:rgba(68, 66, 66, 0.5);
+}
+
+
+ul{
+    list-style: inside;
+    text-align: left;
+}
+  
+h1{
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 1px 1px 2px black,0 0 5px blue,4px 4px 7px rgb(81, 98, 192);
+    background-color:#504b69ea;
+    position: relative;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0 0 10px 1px #070707ea; 
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+  
+#tribute-info{
+    text-align: center;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.4rem;
+  padding:0 0 15px 0;
+}
+
+@media (max-width: 460px) {
+  footer{
+    font-size:1.2rem;
+    padding:0 0 10px 0;
+  }
+}
+
+#img-div{
+    display: block;
+    padding:0 10% 0 10%;
+}
+
+#img-div img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    }
+
+
+@media (max-width: 460px){
+  #img-div img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+
+}
+
+#img-div #img-caption{
+  font-family: 'Bangers', cursive;
+  font-size: 2rem;
+  text-align: center;
+  background-color: blueviolet;
+  position: relative;
+  width: 50%;
+  margin-top: 20px;
+  margin: auto;
+}
+
+@media (max-width: 460px){
+  #img-div #img-caption{
+    font-size: 1.5rem;
+  }
+}
+
+.top #fix{
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  color:rgb(71, 151, 243);
+  font-size: 40px;
+  transform: rotate(-45deg);
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.top #fix:hover{
+  font-size: 45px;
+  right:15px;
+  bottom:20px;
+  color:yellow;
+  box-shadow: 0 5px 10px orange;
+}
