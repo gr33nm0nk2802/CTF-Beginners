@@ -93,11 +93,21 @@ footer{
     padding:0 10% 0 10%;
 }
 
+@media (max-wdith:460px){
+  #img-div{
+    display: block;
+    padding:0 10% 0 10%;
+}
+}
+
+
 #img-div img{
     display: block;
     max-width: 100%;
     height: auto;
     margin-bottom: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
     }
 
 
@@ -119,6 +129,8 @@ footer{
   width: 50%;
   margin-top: 20px;
   margin: auto;
+  border-radius: 2px;
+  box-shadow: 0 0 5px black,0 0 2px blueviolet;
 }
 
 @media (max-width: 460px){
@@ -144,4 +156,41 @@ footer{
   bottom:20px;
   color:yellow;
   box-shadow: 0 5px 10px orange;
+}
+
+@media (max-width:460px){
+  .top #fix{
+    position: fixed;
+    right:10px;
+    bottom:10px;
+    color:rgb(71, 151, 243);
+    font-size: 40px;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+    border-style: solid;
+  }
+  
+  .top #fix:hover{
+    font-size: 45px;
+    right:8px;
+    bottom:8px;
+    color:yellow;
+    box-shadow: 0 5px 10px orange;
+  }
+  
+  .top #fix:focus{
+    font-size: 45px;
+    right:8px;
+    bottom:8px;
+    color:yellow;
+    box-shadow: 0 5px 10px orange;
+  }
+
+  .top #fix:active{
+    font-size: 45px;
+    right:8px;
+    bottom:8px;
+    color:yellow;
+    box-shadow: 0 5px 10px orange;
+  }
 }
